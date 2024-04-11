@@ -7,6 +7,7 @@
 import SwiftUI
 
 struct ButtonStyleYellowColorWide: ButtonStyle {
+    
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .frame(maxWidth: .infinity)
@@ -19,6 +20,7 @@ struct ButtonStyleYellowColorWide: ButtonStyle {
 }
 
 struct ButtonStylePrimaryColor1: ButtonStyle {
+    
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .foregroundColor(configuration.isPressed ? Color.primaryColor1 : .white)

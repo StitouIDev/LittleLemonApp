@@ -8,6 +8,7 @@ import SwiftUI
 
 @main
 struct lLemonApp: App {
+    
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
